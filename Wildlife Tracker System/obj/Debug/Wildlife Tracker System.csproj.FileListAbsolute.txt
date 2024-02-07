@@ -1,0 +1,15 @@
+D:\C# programs\Wildlife Tracker System\Wildlife Tracker System\bin\Debug\Wildlife Tracker System.exe.config
+D:\C# programs\Wildlife Tracker System\Wildlife Tracker System\bin\Debug\Wildlife Tracker System.exe
+D:\C# programs\Wildlife Tracker System\Wildlife Tracker System\bin\Debug\Wildlife Tracker System.pdb
+D:\C# programs\Wildlife Tracker System\Wildlife Tracker System\obj\Debug\Wildlife Tracker System.csproj.AssemblyReference.cache
+D:\C# programs\Wildlife Tracker System\Wildlife Tracker System\obj\Debug\Wildlife Tracker System.csproj.SuggestedBindingRedirects.cache
+D:\C# programs\Wildlife Tracker System\Wildlife Tracker System\obj\Debug\MainWindow.g.cs
+D:\C# programs\Wildlife Tracker System\Wildlife Tracker System\obj\Debug\App.g.cs
+D:\C# programs\Wildlife Tracker System\Wildlife Tracker System\obj\Debug\Wildlife Tracker System_MarkupCompile.cache
+D:\C# programs\Wildlife Tracker System\Wildlife Tracker System\obj\Debug\MainWindow.baml
+D:\C# programs\Wildlife Tracker System\Wildlife Tracker System\obj\Debug\Wildlife Tracker System.g.resources
+D:\C# programs\Wildlife Tracker System\Wildlife Tracker System\obj\Debug\Wildlife_Tracker_System.Properties.Resources.resources
+D:\C# programs\Wildlife Tracker System\Wildlife Tracker System\obj\Debug\Wildlife Tracker System.csproj.GenerateResource.cache
+D:\C# programs\Wildlife Tracker System\Wildlife Tracker System\obj\Debug\Wildlife Tracker System.csproj.CoreCompileInputs.cache
+D:\C# programs\Wildlife Tracker System\Wildlife Tracker System\obj\Debug\Wildlife Tracker System.exe
+D:\C# programs\Wildlife Tracker System\Wildlife Tracker System\obj\Debug\Wildlife Tracker System.pdb
