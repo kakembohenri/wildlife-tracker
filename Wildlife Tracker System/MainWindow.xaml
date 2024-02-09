@@ -65,8 +65,8 @@
                     <CheckBox Name="list_all" Margin="5" Width="200" HorizontalAlignment="Right" Click="FetchAllAnimals" />
                 </DockPanel>
             </StackPanel>
-            
-            <Button Content="Add" Click="Submit" />
+
+            <Button Content="Add" Click="SaveAnimal" />
         </StackPanel>
         
         <!-- Second Column -->
@@ -79,40 +79,30 @@
                 <Image x:Name="imgPreview" Stretch="UniformToFill" Margin="0 10"/>
             </Border>
             <!-- Animal Details -->
-            <Border Margin="10" BorderBrush="Black" BorderThickness="1" Height="300">
-                <Grid>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="*" />
-                        <ColumnDefinition Width="*" />
-                    </Grid.ColumnDefinitions>
-                    
-                    <StackPanel Grid.Column="0">
-                        <TextBlock Text="ID" Margin="2" />
-                        <TextBlock Text="Name" Margin="2" />
-                        <TextBlock Text="Age" Margin="2" />
-                        <TextBlock Text="Gender" Margin="2" />
-                        <TextBlock Text="Category" Margin="2" />
-                        <TextBlock Text="Domesticated" Margin="2" />
-                        <TextBlock Text="Tail Length" Margin="2" />
-                        <TextBlock Text="No. of Teeth" Margin="2" />
-                        <TextBlock Text="Color" Margin="2" />
-                        <TextBlock Text="Cuteness" Margin="2" />
-                    </StackPanel>
-                    <StackPanel Grid.Column="1">
-                        <TextBlock Text="ID" Margin="2" />
-                        <TextBlock Text="Name" Margin="2" />
-                        <TextBlock Text="Age" Margin="2" />
-                        <TextBlock Text="Gender" Margin="2" />
-                        <TextBlock Text="Category" Margin="2" />
-                        <TextBlock Text="Domesticated" Margin="2" />
-                        <TextBlock Text="Tail Length" Margin="2" />
-                        <TextBlock Text="No. of Teeth" Margin="2" />
-                        <TextBlock Text="Color" Margin="2" />
-                        <TextBlock Text="Cuteness" Margin="2" />
-                    </StackPanel>
-                </Grid>
+            <Border Margin="10" BorderBrush="Black" BorderThickness="1" Height="220">
+                <StackPanel Name="animal_details">
+                    <DockPanel HorizontalAlignment="Stretch">
+                        <TextBlock Text="ID" Margin="5" />
+                        <TextBlock Name="detail_ID" Margin="5" Width="200" HorizontalAlignment="Right" />
+                    </DockPanel>
+                    <DockPanel HorizontalAlignment="Stretch">
+                        <TextBlock Text="Name" Margin="5" />
+                        <TextBlock Name="detail_name" Margin="5" Width="200" HorizontalAlignment="Right" />
+                    </DockPanel>
+                    <DockPanel HorizontalAlignment="Stretch">
+                        <TextBlock Text="Age" Margin="5" />
+                        <TextBlock Name="detail_age" Margin="5" Width="200" HorizontalAlignment="Right" />
+                    </DockPanel>
+                    <DockPanel HorizontalAlignment="Stretch">
+                        <TextBlock Text="Gender" Margin="5" />
+                        <TextBlock Name="detail_gender" Margin="5" Width="200" HorizontalAlignment="Right" />
+                    </DockPanel>
+                    <DockPanel HorizontalAlignment="Stretch">
+                        <TextBlock Text="Domesticated" Margin="5" />
+                        <TextBlock Name="detail_domesticated" Margin="5" Width="200" HorizontalAlignment="Right" />
+                    </DockPanel>
+                </StackPanel>
             </Border>
         </StackPanel>
-        
     </Grid>
 </Window>
